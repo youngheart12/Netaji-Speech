@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/netaji/static/css/main.57c645ae.chunk.css",
-    "main.js": "/netaji/static/js/main.a2762637.chunk.js",
-    "main.js.map": "/netaji/static/js/main.a2762637.chunk.js.map",
-    "runtime-main.js": "/netaji/static/js/runtime-main.bc3d0127.js",
-    "runtime-main.js.map": "/netaji/static/js/runtime-main.bc3d0127.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/netaji/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.514aebbe.chunk.js": "/netaji/static/js/2.514aebbe.chunk.js",
-    "static/js/2.514aebbe.chunk.js.map": "/netaji/static/js/2.514aebbe.chunk.js.map",
-    "index.html": "/netaji/index.html",
-    "precache-manifest.ddb3568686abd8fff15ed84a479a029c.js": "/netaji/precache-manifest.ddb3568686abd8fff15ed84a479a029c.js",
-    "service-worker.js": "/netaji/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/netaji/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.57c645ae.chunk.css.map": "/netaji/static/css/main.57c645ae.chunk.css.map",
-    "static/js/2.514aebbe.chunk.js.LICENSE.txt": "/netaji/static/js/2.514aebbe.chunk.js.LICENSE.txt"
+    "main.css": "/Netaji-Speech/static/css/main.57c645ae.chunk.css",
+    "main.js": "/Netaji-Speech/static/js/main.ee20165f.chunk.js",
+    "main.js.map": "/Netaji-Speech/static/js/main.ee20165f.chunk.js.map",
+    "runtime-main.js": "/Netaji-Speech/static/js/runtime-main.a03bef8d.js",
+    "runtime-main.js.map": "/Netaji-Speech/static/js/runtime-main.a03bef8d.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/Netaji-Speech/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.514aebbe.chunk.js": "/Netaji-Speech/static/js/2.514aebbe.chunk.js",
+    "static/js/2.514aebbe.chunk.js.map": "/Netaji-Speech/static/js/2.514aebbe.chunk.js.map",
+    "index.html": "/Netaji-Speech/index.html",
+    "precache-manifest.dcc076faead841e04b45e0a073610472.js": "/Netaji-Speech/precache-manifest.dcc076faead841e04b45e0a073610472.js",
+    "service-worker.js": "/Netaji-Speech/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/Netaji-Speech/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.57c645ae.chunk.css.map": "/Netaji-Speech/static/css/main.57c645ae.chunk.css.map",
+    "static/js/2.514aebbe.chunk.js.LICENSE.txt": "/Netaji-Speech/static/js/2.514aebbe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc3d0127.js",
+    "static/js/runtime-main.a03bef8d.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.514aebbe.chunk.js",
     "static/css/main.57c645ae.chunk.css",
-    "static/js/main.a2762637.chunk.js"
+    "static/js/main.ee20165f.chunk.js"
   ]
 }
