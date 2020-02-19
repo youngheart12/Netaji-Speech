@@ -91,8 +91,11 @@ render() {
            
             <Col md="12" xs="12" sm="12" style={{padding:"0px"}}>
 {this.props.speechDetail.map((speech,key)=>{
-    return <ChildSpeech authorName={speech.authorName}
+    return <ChildSpeech
+    
+    authorName={speech.authorName}
     authorSpeech={speech.authorSpeech}
+    authorSpeechDate={speech.authorSpeechDate}
     tokenize={speech.tokenize.map((tags)=>{
         return <Button color="danger" style={{margin:"5px"}}>{tags}</Button>
     })}

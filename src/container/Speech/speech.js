@@ -11,20 +11,24 @@ export default class speech extends Component {
         authorSpeech:null,
         authorSpeechTag:null,
         turnButton:false,
+        authorSpeechDate:null,
         filterVlaueAuthor:null,  //default value for speechDetails
         speechDetails:[
 {
     authorName:"Dilip kumar",
+    authorSpeechDate:"2020-02-15",
     authorSpeech:"Some quick example text to build on the card title and make up the bulk of the card's content.",
     tokenize:["Delhi","Election"]
 },
 {
     authorName:"Mayank",
+    authorSpeechDate:"2020-02-18",
     authorSpeech:"Some quick example text to build on the card title and make up the bulk of the card's content.",
     tokenize:["Mumbai","Highlights"]
 },
 {
     authorName:"Mayank Soni",
+    authorSpeechDate:"2020-02-10",
     authorSpeech:"Some quick example text to build on the card title and make up the bulk of the card's content.",
     tokenize:["Record","Statics"]
 }
@@ -87,13 +91,14 @@ export default class speech extends Component {
     //submit handler
     submitHandler=(e)=>{
         e.preventDefault();
-        const {authorName,authorSpeech,authorSpeechTag}=this.state;
+        const {authorName,authorSpeech,authorSpeechTag,authorSpeechDate}=this.state;
         const tokenize=authorSpeechTag.split(",");
 
         const data={
             authorName,
             authorSpeech,
-            tokenize
+            tokenize,
+            authorSpeechDate
         }
      var copySpeechDetails=this.state.speechDetails;
      copySpeechDetails.push(data);
@@ -107,7 +112,7 @@ export default class speech extends Component {
 
 
     render() {
-        
+       
         return (
             <Container fluid>
                 <Row style={{backgroundColor:"null",padding:"45px"}} >
@@ -144,7 +149,13 @@ export default class speech extends Component {
       </FormGroup>
       <FormGroup row>
       <Col style={{padding:"5px"}}>
-          <Input type="text" name="authorSpeechTag"  placeholder="Enter the keywords using , " onChange={this.onChangeHandler} />
+          <Input type="date" name="authorSpeechDate"  onChange={this.onChangeHandler} />
+        </Col>
+      </FormGroup>
+      
+      <FormGroup row>
+      <Col style={{padding:"5px"}}>
+          <Input type="text" name="authorSpeechTag"  placeholder="Enter the keywords using comma " onChange={this.onChangeHandler} />
         </Col>
       </FormGroup>
       
